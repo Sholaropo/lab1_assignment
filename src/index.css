@@ -1,0 +1,59 @@
+/* Reset */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+  background-color: #004080;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.25rem;
+}
+
+/* Main */
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+main h2 {
+  margin-bottom: 1rem;
+  color: #004080;
+}
+
+/* Employee list sections */
+#employee-list section {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #fff;
+  border-radius: 8px;
+}
+
+#employee-list h4 {
+  margin-bottom: 0.5rem;
+  color: #004080;
+}
+
+/* Footer */
+footer {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
