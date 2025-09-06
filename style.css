@@ -1,4 +1,6 @@
-/* Reset */
+/* style.css */
+
+/* Reset some default spacing */
 body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Header */
+/* Header styling */
 header {
   background-color: #004080;
   color: #fff;
@@ -19,11 +21,41 @@ header {
   text-align: center;
 }
 
-header h1 {
-  margin-bottom: 0.25rem;
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-/* Main */
+/* Logo */
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+li{
+    padding: 0px 10px;
+    list-style-position: inside;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
 main {
   padding: 2rem;
   max-width: 900px;
@@ -35,7 +67,7 @@ main h2 {
   color: #004080;
 }
 
-/* Employee list sections */
+/* Employee sections will be injected */
 #employee-list section {
   border: 1px solid #ccc;
   padding: 1rem;
@@ -44,12 +76,7 @@ main h2 {
   border-radius: 8px;
 }
 
-#employee-list h4 {
-  margin-bottom: 0.5rem;
-  color: #004080;
-}
-
-/* Footer */
+/* Footer styling */
 footer {
   background-color: #004080;
   color: #fff;
