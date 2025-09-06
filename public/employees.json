@@ -1,0 +1,18 @@
+[
+  {
+    "department": "Finance",
+    "employees": ["Alice Johnson", "Bob Smith"]
+  },
+  {
+    "department": "IT",
+    "employees": ["Carol White", "David Brown"]
+  },
+  {
+    "department": "Customer Service",
+    "employees": ["Matthew Thomas", "Sage Lee"]
+  },
+  {
+    "department": "Marketing",
+    "employees": ["Harris Dikson", "Olivia Green"]
+  }
+]
